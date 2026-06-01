@@ -1,0 +1,55 @@
+{
+  "expo": {
+    "name": "Domaino",
+    "slug": "domaino-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "scheme": "domaino",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.domaino.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#000000",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "package": "com.domaino.app",
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/eee2b44a-cc87-4e3c-a4ea-e8cc3528cc2a"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-notifications",
+        {
+          "color": "#10b981"
+        }
+      ],
+      "expo-updates",
+      "expo-status-bar"
+    ],
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "eee2b44a-cc87-4e3c-a4ea-e8cc3528cc2a"
+      }
+    },
+    "owner": "uyksuz"
+  }
+}

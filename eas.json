@@ -1,0 +1,57 @@
+{
+  "cli": {
+    "version": ">= 18.0.0"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal",
+      "android": {
+        "buildType": "apk"
+      },
+      "env": {
+        "EXPO_PUBLIC_FIREBASE_API_KEY": "AIzaSyCnS90q5T_OEEbUPctRi_X_-pzqEsthQII",
+        "EXPO_PUBLIC_FIREBASE_AUTH_DOMAIN": "domaino-42a21.firebaseapp.com",
+        "EXPO_PUBLIC_FIREBASE_DB_URL": "https://domaino-42a21-default-rtdb.europe-west1.firebasedatabase.app",
+        "EXPO_PUBLIC_FIREBASE_PROJECT_ID": "domaino-42a21",
+        "EXPO_PUBLIC_FIREBASE_STORAGE_BUCKET": "domaino-42a21.firebasestorage.app",
+        "EXPO_PUBLIC_FIREBASE_MESSAGING_SENDER_ID": "1013823127394",
+        "EXPO_PUBLIC_FIREBASE_APP_ID": "1:1013823127394:web:ccfc4d0e55e3acff05f63b"
+      }
+    },
+    "preview": {
+      "distribution": "internal",
+      "android": {
+        "buildType": "apk"
+      },
+      "channel": "preview",
+      "env": {
+        "EXPO_PUBLIC_FIREBASE_API_KEY": "AIzaSyCnS90q5T_OEEbUPctRi_X_-pzqEsthQII",
+        "EXPO_PUBLIC_FIREBASE_AUTH_DOMAIN": "domaino-42a21.firebaseapp.com",
+        "EXPO_PUBLIC_FIREBASE_DB_URL": "https://domaino-42a21-default-rtdb.europe-west1.firebasedatabase.app",
+        "EXPO_PUBLIC_FIREBASE_PROJECT_ID": "domaino-42a21",
+        "EXPO_PUBLIC_FIREBASE_STORAGE_BUCKET": "domaino-42a21.firebasestorage.app",
+        "EXPO_PUBLIC_FIREBASE_MESSAGING_SENDER_ID": "1013823127394",
+        "EXPO_PUBLIC_FIREBASE_APP_ID": "1:1013823127394:web:ccfc4d0e55e3acff05f63b"
+      }
+    },
+    "production": {
+      "android": {
+        "buildType": "apk"
+      },
+      "channel": "production",
+      "env": {
+        "EXPO_PUBLIC_FIREBASE_API_KEY": "AIzaSyCnS90q5T_OEEbUPctRi_X_-pzqEsthQII",
+        "EXPO_PUBLIC_FIREBASE_AUTH_DOMAIN": "domaino-42a21.firebaseapp.com",
+        "EXPO_PUBLIC_FIREBASE_DB_URL": "https://domaino-42a21-default-rtdb.europe-west1.firebasedatabase.app",
+        "EXPO_PUBLIC_FIREBASE_PROJECT_ID": "domaino-42a21",
+        "EXPO_PUBLIC_FIREBASE_STORAGE_BUCKET": "domaino-42a21.firebasestorage.app",
+        "EXPO_PUBLIC_FIREBASE_MESSAGING_SENDER_ID": "1013823127394",
+        "EXPO_PUBLIC_FIREBASE_APP_ID": "1:1013823127394:web:ccfc4d0e55e3acff05f63b"
+      }
+    }
+  },
+  "submit": {
+    "production": {}
+  }
+}
